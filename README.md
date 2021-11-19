@@ -11,7 +11,7 @@
 
 MathepiaModels.jl is part of [Mathepia.jl: Spatial and temporal epidemiology data mining flow tools including data processing and analysis, model setup and simulation, inference and evaluation.](https://github.com/Song921012/Mathepia.jl)
 
-It focues on models setup, simulation and analysis. The followings are features will be included in the future.
+It focuses on models setup, simulation and analysis. It is at very beginning stage. The followings are features will be included in the future.
 
 Models will be designed to include
 - classical epidemic compartment models such as SIS, SIR, SEIR, SEIAR models and so on.
