@@ -1,5 +1,9 @@
 module MathepiaModels
+using DifferentialEquations
+using Plots
 
-# Write your package code here.
+include("Models/odecompartmentsmodel.jl")
+
+export SIRbasic
 
 end
