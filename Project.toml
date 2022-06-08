@@ -1,7 +1,7 @@
 name = "MathepiaModels"
 uuid = "2bd2a319-f9c6-417c-a4f9-7b097fc62840"
 authors = ["Pengfei Song"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
