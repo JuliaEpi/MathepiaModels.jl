@@ -13,7 +13,7 @@ Parameters: (birth rate, natural death rate, disaese induced death rate, populat
 \end{aligned}
 ```
 """
-function SIRbasic(du, u, p, t)
+function SIRbasic!(du, u, p, t)
     Λ, d, α, N, β, γ = p
     pop = (Λ > 0 & d > 0) ? Λ / d : N
     S, I, R = u
@@ -40,7 +40,7 @@ exposed decreasing infection ratio)
 \end{aligned}
 ```
 """
-function SEIRbasic(du, u, p, t)
+function SEIRbasic!(du, u, p, t)
     Λ, d, α, N, β, γ, σ, ke = p
     pop = (Λ > 0 & d > 0) ? Λ / d : N
     S, E, I, R = u
@@ -68,15 +68,15 @@ exposed decreasing infection ratio, asymptomatic infection decreasing infection 
 \end{aligned}
 ```
 """
-function SEIARbasic(du, u, p, t)
-    Λ, d, α, N, β, γ, σ, ke, ka, ρ, γA= p
+function SEIARbasic!(du, u, p, t)
+    Λ, d, α, N, β, γ, σ, ke, ka, ρ, γA = p
     pop = (Λ > 0 & d > 0) ? Λ / d : N
     S, E, I, A, R = u
     du[1] = Λ - β * S * (I + ke * E + ka * A) / pop - d * S
     du[2] = β * S * (I + ke * E + ka * A) / pop - σ * E - d * E
-    du[3] = (1-ρ)*σ * E - γ * I - d * I - α * I
+    du[3] = (1 - ρ) * σ * E - γ * I - d * I - α * I
     du[3] = ρ * σ * E - γA * A - d * A
-    du[4] = γ * I +  γA * A - d * R
+    du[4] = γ * I + γA * A - d * R
 end
 
 @doc raw"""
@@ -93,9 +93,9 @@ Parameters: (population, infection rate, recovery rate)
 \end{aligned}
 ```
 """
-function SISbasic(du, u, p, t)
+function SISbasic!(du, u, p, t)
     pop, β, γ = p
     S, I = u
-    du[1] = - β * S * I / pop + γ * I
-    du[2] = β * S * I / pop - γ * I 
+    du[1] = -β * S * I / pop + γ * I
+    du[2] = β * S * I / pop - γ * I
 end
