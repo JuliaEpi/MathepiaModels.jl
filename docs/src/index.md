@@ -4,7 +4,7 @@ CurrentModule = MathepiaModels
 
 # MathepiaModels
 
-Documentation for [MathepiaModels](https://github.com/Song921012/MathepiaModels.jl).
+Documentation for [MathepiaModels](https://github.com/Mathepia/MathepiaModels.jl).
 
 ```@index
 ```
