@@ -1,15 +1,15 @@
 # MathepiaModels
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Song921012.github.io/MathepiaModels.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Song921012.github.io/MathepiaModels.jl/dev)
-[![Build Status](https://github.com/Song921012/MathepiaModels.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Song921012/MathepiaModels.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Build Status](https://travis-ci.com/Song921012/MathepiaModels.jl.svg?branch=main)](https://travis-ci.com/Song921012/MathepiaModels.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/Song921012/MathepiaModels.jl?svg=true)](https://ci.appveyor.com/project/Song921012/MathepiaModels-jl)
-[![Coverage](https://codecov.io/gh/Song921012/MathepiaModels.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/Song921012/MathepiaModels.jl)
-[![Coverage](https://coveralls.io/repos/github/Song921012/MathepiaModels.jl/badge.svg?branch=main)](https://coveralls.io/github/Song921012/MathepiaModels.jl?branch=main)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Mathepia.github.io/MathepiaModels.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Mathepia.github.io/MathepiaModels.jl/dev)
+[![Build Status](https://github.com/Mathepia/MathepiaModels.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Mathepia/MathepiaModels.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://travis-ci.com/Mathepia/MathepiaModels.jl.svg?branch=main)](https://travis-ci.com/Mathepia/MathepiaModels.jl)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/Mathepia/MathepiaModels.jl?svg=true)](https://ci.appveyor.com/project/Mathepia/MathepiaModels-jl)
+[![Coverage](https://codecov.io/gh/Mathepia/MathepiaModels.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/Mathepia/MathepiaModels.jl)
+[![Coverage](https://coveralls.io/repos/github/Mathepia/MathepiaModels.jl/badge.svg?branch=main)](https://coveralls.io/github/Mathepia/MathepiaModels.jl?branch=main)
 [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac)
 
-MathepiaModels.jl is part of [Mathepia.jl: Spatial and temporal epidemiology data mining flow tools including data processing and analysis, model setup and simulation, inference and evaluation.](https://github.com/Song921012/Mathepia.jl)
+MathepiaModels.jl is part of [Mathepia.jl: Spatial and temporal epidemiology data mining flow tools including data processing and analysis, model setup and simulation, inference and evaluation.](https://github.com/Mathepia/Mathepia.jl)
 
 It focuses on models setup, simulation and analysis. It is at very beginning stage. The followings are features will be included in the future.
 
@@ -53,16 +53,16 @@ julia> import Pkg; Pkg.add("MathepiaModels")
 
 ## Documentation
 
-- [**STABLE**](https://song921012.github.io/MathepiaModels.jl/stable/)
-- [**DEVEL**](https://song921012.github.io/MathepiaModels.jl/dev/)
+- [**STABLE**](https://Mathepia.github.io/MathepiaModels.jl/stable/)
+- [**DEVEL**](https://Mathepia.github.io/MathepiaModels.jl/dev/)
 
 
 ## Related Packages and Works
 
-The other parts of [Mathepia.jl: Spatial and temporal epidemiology data mining flow tools](https://github.com/Song921012/Mathepia.jl) is as follows:
-- [MathepiaData.jl: Spatial and temporal data preprocessing and analysis](https://github.com/Song921012/MathepiaData.jl)
-- [MathepiaInference.jl: Bayesian inference tools.](https://github.com/Song921012/MathepiaInference.jl)
-- [MathepiaOptimal.jl: Optimization, optimal control and optimal transport tools](https://github.com/Song921012/MathepiaOptimal.jl)
+The other parts of [Mathepia.jl: Spatial and temporal epidemiology data mining flow tools](https://github.com/Mathepia/Mathepia.jl) is as follows:
+- [MathepiaData.jl: Spatial and temporal data preprocessing and analysis](https://github.com/Mathepia/MathepiaData.jl)
+- [MathepiaInference.jl: Bayesian inference tools.](https://github.com/Mathepia/MathepiaInference.jl)
+- [MathepiaOptimal.jl: Optimization, optimal control and optimal transport tools](https://github.com/Mathepia/MathepiaOptimal.jl)
 
 MathepiaModels.jl is dependent on many packages from [SciML Open Source Scientific Machine Learning](https://github.com/SciML). They do a lot of excellent works and packages.  Because of them, I find my idol [ChrisRackauckas](https://github.com/ChrisRackauckas), become to love julia and decide to do some contributions. 
 
